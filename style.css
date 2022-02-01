@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  margin-left: 25px;
+  font-size: 24px;
+}
+
+.h1 {
+  font-size: 68px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.h2 {
+  margin-top: 70px;
+  margin-left: 74px;
+  margin-bottom: 7px;
+  font-size: 42px;
+  font-weight: 550;
+}
+
+.p {
+  font-size: 47px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(255, 238, 0);
+}
+
+.none {
+  text-decoration: none;
+  color: rgb(0, 0, 184);
+  font-weight: 800;
+}
+
+.nonep {
+  text-decoration: none;
+  color: black;
+}
+
+.nones {
+  text-decoration: none;
+  color: navy;
+}
+
+.page-header {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(212, 112, 145);
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 45px;
+}
+
+.Phon {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-photo {
+  margin: 20px;
+}
+
+.back-photo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+
+.button {
+  display: block;
+  padding: 15px;
+  border: 5px solid black;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: rgb(248, 153, 45);
+  color: rgb(0, 0, 165);
+  text-align: center;
+}
+
+.button-sale {
+  height: 50px;
+  width: 106px;
+  border: 3px solid black;
+  border-radius: 12%;
+  font-size: 14px;
+  color: rgb(0, 255, 242);
+  font-weight: 900;
+  background-color: rgb(223 146 199);
+  margin-top: auto;
+  margin-bottom: 7px;
+}
+
+.Adv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.advtxt {
+  font-size: 22px;
+  font-weight: 570;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.advall {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.size {
+  max-width: 80%;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 25px;
+  max-height: 200px;
+}
+
+.Icon {
+  border: 3px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.margin {
+  margin-right: 30px;
+}
+
+.exc {
+  font-size: 30px;
+  color: red;
+  font-weight: 600;
+}
+
+.Sales {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.sale {
+  border: 3px solid yellow;
+  border-radius: 14%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.h-sale {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-right: 2px;
+  padding-left: 2px;
+  text-align: center;
+}
+
+.p-sale {
+  width: 240px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 27px;
+  font-weight: 540;
+  text-align: center;
+}
+
+.cake-1 {
+  border: 4px solid yellow;
+  margin-left: 30px;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 22px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  border: 5px solid rgb(34, 39, 39);
+}
+
+.img-review {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.ul-review {
+  list-style-type: none;
+  background-color: darksalmon;
+}
+
+.plus-minus {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border: 2px solid greenyellow;
+  background-color: green;
+  font-size: 14px;
+}
+
+.name {
+  margin: 0;
+  margin-top: 10px;
+  background-color: wheat;
+  border: 2px solid rgb(100, 94, 94);
+  text-align: center;
+}
+
+.comments {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: lightseagreen;
+  border: 2px solid darkseagreen;
+}
+
+.contacts {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  font-size: 26px;
+  margin-left: 30px;
+}
+.span-contact {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.navip {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+}
+.SS {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-right: 45px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+}
+.podval {
+  background-color: rgba(212, 112, 145, 0.788);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.insta {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.telega {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.VK {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.twitter {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.facebook {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.p-goods {
+  font-size: 30px;
+  margin-left: 74px;
+}
+
+.Sales-goods {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.sale-goods {
+  border: 3px solid yellow;
+  border-radius: 14%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.size-goods {
+  height: 75%;
+  width: 75%;
+  margin-top: 25px;
+  max-height: 200px;
+  min-width: 200px;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: 200px, 200px, 100px;
+  gap: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 384px;
+}
+
+.button-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  height: 80px;
+  width: 192px;
+  border: 5px solid black;
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(0, 0, 165);
+  font-weight: 900;
+  background-color: rgb(248, 153, 45);
+}
+
+
+/* .img-container {
+    position: relative;
+    padding-bottom: 100%;
+}
+.img-container  img{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+} */
